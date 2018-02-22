@@ -8,15 +8,8 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.lifecycledemonstration.MainActivity">
 
-    <android.support.v7.view.menu.ActionMenuItemView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/action_settings"
-        android:title="Settings"
-        android:orderInCategory="100"
-        app:showAsAction="never"/>
-
     <TextView
+        android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
